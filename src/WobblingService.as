@@ -76,12 +76,12 @@ package {
 		}
 
 		private function _dispAddedToStage(event : Event = null, disp : DisplayObject = null) : void {
-			var disp : DisplayObject = disp ? disp :  event.target as DisplayObject;
+			disp = disp ? disp :  event.target as DisplayObject;
 			disp.removeEventListener(Event.ADDED_TO_STAGE, _dispAddedToStage);
 
 			_tweeners ||= new <WarpFilterTweener>[];
 
-//			var filter : WarpFilter = new WarpFilter();
+			var filter : WarpFilter = new WarpFilter();
 			disp.filter = filter;
 			var tweener : WarpFilterTweener = tweenerInst;
 			tweener.init(filter);
@@ -99,7 +99,6 @@ package {
 		private var _cache : Dictionary = new Dictionary(true);
 		private var _tweeners : Vector.<WarpFilterTweener>;
 		private var _pool : Vector.<WarpFilterTweener> = new <WarpFilterTweener>[];
-		private var filter:WarpFilter = new WarpFilter();
 
 		private function get tweenerInst() : WarpFilterTweener {
 			if (_pool.length > 0) {

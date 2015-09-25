@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="WobblingTest">
     <configurations>
-      <configuration name="WobblingTest" target-platform="Desktop" pure-as="true" main-class="WobblingMain" output-file="WobblingTest.swf" output-folder="$MODULE_DIR$/../out/production/WobblingTest">
+      <configuration name="WobblingTest" target-platform="Desktop" pure-as="true" main-class="WobblingMain" output-file="WobblingTest.swf" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="19.0">
           <entries>
             <entry library-id="9193aafb-d874-4d5f-9260-6105c73176e2">
