@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="WobblingTest">
+    <configurations>
+      <configuration name="WobblingTest" target-platform="Desktop" pure-as="true" main-class="WobblingMain" output-file="WobblingTest.swf" output-folder="$MODULE_DIR$/../out/production/WobblingTest">
+        <dependencies target-player="19.0">
+          <entries>
+            <entry library-id="9193aafb-d874-4d5f-9260-6105c73176e2">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air19_sdk_mac" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/WobblingTest-app.xml" package-file-name="WobblingTest" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air19_sdk_mac" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9193aafb-d874-4d5f-9260-6105c73176e2" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
